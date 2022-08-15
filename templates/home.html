@@ -1,0 +1,6 @@
+<h1>Message board homepage</h1>
+<ul>
+    {% for Message in all_message_body_list %}
+        <li>{{ Message.text }}</li>
+    {% endfor%}
+</ul>
